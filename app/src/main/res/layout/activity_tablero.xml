@@ -264,6 +264,13 @@
                 android:layout_margin="0.3dp"
                 android:background="@color/white"
                 android:scaleType="fitCenter" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="0.3dp"
+                android:background="@color/white"
+                android:scaleType="fitCenter" />
 
             <ImageView
                 android:layout_width="0dp"
@@ -284,8 +291,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="0.3dp"
-
-                android:background="@color/white"
+                android:background="@color/Seguro"
                 android:scaleType="fitCenter" />
             <ImageView
                 android:layout_width="0dp"
@@ -365,6 +371,13 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:layout_margin="0.3dp"
+                    android:background="@color/rojo"
+                    android:scaleType="fitCenter" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="0.3dp"
 
                     android:background="@color/white"
                     android:scaleType="fitCenter" />
@@ -402,7 +415,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="0.3dp"
-                android:background="@color/white"
+                android:background="@color/Seguro"
                 android:scaleType="fitCenter" />
 
             <ImageView
@@ -410,43 +423,49 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="0.3dp"
-                android:background="@color/white"
+                android:background="@color/amarillo"
                 android:scaleType="fitCenter" />
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="0.3dp"
-                android:background="@color/white"
+                android:background="@color/amarillo"
                 android:scaleType="fitCenter" />
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="0.3dp"
-
-                android:background="@color/white"
+                android:background="@color/amarillo"
                 android:scaleType="fitCenter" />
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="0.3dp"
-                android:background="@color/white"
+                android:background="@color/amarillo"
                 android:scaleType="fitCenter" />
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="0.3dp"
-                android:background="@color/white"
+                android:background="@color/amarillo"
                 android:scaleType="fitCenter" />
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="0.3dp"
-                android:background="@color/white"
+                android:background="@color/amarillo"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="0.3dp"
+                android:background="@color/amarillo"
                 android:scaleType="fitCenter" />
         </LinearLayout>
 
@@ -494,24 +513,6 @@
                 android:layout_weight="1"
                 android:background="@color/rojo"
                 android:scaleType="fitCenter" />
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="0.3dp"
-                android:layout_weight="1"
-                android:background="@color/rojo"
-                android:scaleType="fitCenter" />
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="0.3dp"
-                android:layout_weight="1"
-
-                android:background="@color/rojo"
-                android:scaleType="fitCenter" />
-
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -533,7 +534,32 @@
                 android:layout_height="match_parent"
                 android:layout_margin="0.3dp"
                 android:layout_weight="1"
+
                 android:background="@color/rojo"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0.3dp"
+                android:layout_weight="1"
+                android:background="@color/rojo"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0.3dp"
+                android:layout_weight="1"
+                android:background="@color/rojo"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0.3dp"
+                android:layout_weight="1"
+                android:background="@color/Seguro"
                 android:scaleType="fitCenter" />
         </LinearLayout>
     </TableRow>
@@ -570,8 +596,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="0.3dp"
-
                 android:background="@color/white"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="0.3dp"
+                android:background="@color/amarillo"
                 android:scaleType="fitCenter" />
             <ImageView
                 android:layout_width="0dp"
@@ -645,6 +677,13 @@
                 android:layout_weight="1"
                 android:layout_margin="0.3dp"
                 android:background="@color/white"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="0.3dp"
+                android:background="@color/Seguro"
                 android:scaleType="fitCenter" />
             <ImageView
                 android:layout_width="0dp"
@@ -696,7 +735,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
-                android:background="@drawable/base_azul" />
+                android:background="@drawable/base_amarillo" />
 
         </LinearLayout>
 
@@ -729,15 +768,14 @@
                 android:layout_weight="1"
                 android:scaleType="fitCenter" />
             <ImageView
-                android:background="@color/white"
+                android:background="@color/Seguro"
                 android:layout_margin="0.3dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:scaleType="fitCenter" />
             <ImageView
-                android:id="@+id/SalidaAzul"
-                android:background="@color/azul"
+                android:background="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -773,64 +811,56 @@
             android:orientation="vertical">
             <!-- Fichas del Jugador 1 -->
             <ImageView
-                android:id="@+id/entradaAzul"
+                android:background="@color/verde"
+                android:layout_margin="0.3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:background="@color/verde"
+                android:layout_margin="0.3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:background="@color/verde"
+                android:layout_margin="0.3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:background="@color/verde"
+                android:layout_margin="0.3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:background="@color/verde"
+                android:layout_margin="0.3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:background="@color/verde"
+                android:layout_margin="0.3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:background="@color/verde"
+                android:layout_margin="0.3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+            <ImageView
                 android:background="@color/Seguro"
-                android:layout_margin="0.3dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:scaleType="fitCenter" />
-            <ImageView
-                android:id="@+id/PasilloAzulUno"
-                android:background="@color/azul"
-                android:layout_margin="0.3dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:scaleType="fitCenter" />
-            <ImageView
-                android:id="@+id/PasilloAzulDos"
-                android:background="@color/azul"
-                android:layout_margin="0.3dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:scaleType="fitCenter" />
-            <ImageView
-                android:id="@+id/PasilloAzulTres"
-                android:background="@color/azul"
-                android:layout_margin="0.3dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:scaleType="fitCenter" />
-            <ImageView
-                android:id="@+id/PasilloAzulCuatro"
-                android:background="@color/azul"
-                android:layout_margin="0.3dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:scaleType="fitCenter" />
-            <ImageView
-                android:id="@+id/PasilloAzulCinco"
-                android:background="@color/azul"
-                android:layout_margin="0.3dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:scaleType="fitCenter" />
-            <ImageView
-                android:id="@+id/PasilloAzulSeis"
-                android:background="@color/azul"
-                android:layout_margin="0.3dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:scaleType="fitCenter" />
-            <ImageView
-                android:id="@+id/PasilloAzulSiete"
-                android:background="@color/azul"
                 android:layout_margin="0.3dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -866,16 +896,14 @@
                 android:layout_weight="1"
                 android:scaleType="fitCenter" />
             <ImageView
-                android:background="@color/white"
+                android:background="@color/verde"
                 android:layout_margin="0.3dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:scaleType="fitCenter" />
             <ImageView
-
-                android:id="@+id/SeguroRojo"
-                android:background="@color/Seguro"
+                android:background="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -914,7 +942,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="@drawable/base_rojo"
+                android:background="@drawable/base_verde"
                 android:scaleType="fitCenter" />
 
         </LinearLayout>
