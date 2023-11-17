@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "755308584429",
+    "project_id": "parchis-84df1",
+    "storage_bucket": "parchis-84df1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755308584429:android:9276de95d6e807dee0dbe4",
+        "android_client_info": {
+          "package_name": "com.example.parchis1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsYDIsVeuWYwxqCmoeDMvADqyJH73IxWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
