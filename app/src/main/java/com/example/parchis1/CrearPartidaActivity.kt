@@ -1,9 +1,11 @@
 package com.example.parchis1
 
+import android.content.Intent
 import android.nfc.Tag
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import com.example.parchis1.databinding.ActivityCrearPartidaBinding
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -35,15 +37,32 @@ class CrearPartidaActivity : AppCompatActivity() {
 
                 var player1 = Jugador(playerName, playerUID)
 
-                val game = Game(gameCode, player1, null, playerUID, false, false, null)
-                gameReference?.child(gameCode)?.setValue(game)?.addOnSuccessListener{
-                    Toast.makeText(this, R.string.code_message_creation_ok, Toast.LENGTH_LONG)
+                val game = Juego(gameCode, player1, null, playerUID)
+                gameRef?.child(gameCode)?.setValue(game)?.addOnSuccessListener{
+                    Toast.makeText(this, "Creacion ok, todo nice", Toast.LENGTH_LONG)
                 }?.addOnFailureListener{
-                    Toast.makeText(this, R.string.code_message_creation_fail, Toast.LENGTH_LONG)
+                    Toast.makeText(this, "Creacion falla, todo bad", Toast.LENGTH_LONG)
                 }
 
-                Log.d(TAG, "Finaliza")
+                Log.d("Creacion juego", "Finaliza")
             }
         }
+
+        binding.btnUnirse.setOnClickListener {
+            var game = gameRef?.child(gameCode) as Juego
+
+            game.jugador2 = Jugador(playerName, playerUID)
+            //game.isStart = true
+
+            gameRef?.child(gameCode)?.setValue(game)?.addOnSuccessListener{
+                goToBoard()
+            }?.addOnFailureListener{
+                // message fail
+            }
+        }
+    }
+    fun goToBoard(){
+        val intent = Intent(this, ActivityTablero::class.java)
+        startActivity(intent)
     }
 }
